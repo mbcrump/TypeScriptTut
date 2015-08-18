@@ -24,12 +24,16 @@
   <ItemGroup>
     <Content Include="Demos\01.html" />
     <Content Include="Demos\02.html" />
+    <Content Include="Demos\03.html" />
     <Content Include="index.html" />
+    <Content Include="Scripts\jquery-1.11.3.min.js" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\01.ts" />
     <TypeScriptCompile Include="Scripts\02.ts" />
+    <TypeScriptCompile Include="Scripts\03.ts" />
+    <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <None Include="web.Debug.config">
