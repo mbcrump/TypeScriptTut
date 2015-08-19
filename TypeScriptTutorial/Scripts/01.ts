@@ -1,8 +1,8 @@
-﻿var name = 'Michael Crump'; //name is inferred as a string
-var fullName: string = 'Michael Crump'; //fullName is declared as a string
+﻿var name = 'Michael Crump'; //name is using Type Inference as a string since it was declared as a string
+var fullName: string = 'Michael Crump'; //fullName is using a Type Annotation and is declared as a string
 
-var num = 1; //num is inferred as a number
-var bigNumber: number = 100; //bigNumber is declared as a number
+var num = 1; 
+var bigNumber: number = 100; 
 
 var something;
 something = 'Michael Crump'; //Now it is a String

@@ -25,6 +25,8 @@
     <Content Include="Demos\01.html" />
     <Content Include="Demos\02.html" />
     <Content Include="Demos\03.html" />
+    <Content Include="Demos\04-Interfaces.html" />
+    <Content Include="Demos\05-class.html" />
     <Content Include="index.html" />
     <Content Include="Scripts\jquery-1.11.3.min.js" />
     <Content Include="web.config" />
@@ -33,6 +35,8 @@
     <TypeScriptCompile Include="Scripts\01.ts" />
     <TypeScriptCompile Include="Scripts\02.ts" />
     <TypeScriptCompile Include="Scripts\03.ts" />
+    <TypeScriptCompile Include="Scripts\04-Interface.ts" />
+    <TypeScriptCompile Include="Scripts\05-Class.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
   </ItemGroup>
   <ItemGroup>
@@ -43,7 +47,9 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="obj\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>
