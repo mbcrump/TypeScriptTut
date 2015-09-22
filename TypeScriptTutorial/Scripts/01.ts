@@ -1,10 +1,16 @@
-﻿var name = 'Michael Crump'; //name is using Type Inference as a string since it was declared as a string
-var fullName: string = 'Michael Crump'; //fullName is using a Type Annotation and is declared as a string
+﻿//Strings
 
-var num = 1; 
-var bigNumber: number = 100; 
+var name = 'Michael Crump'; //name is using Type Inference as a string since it was declared as a string
+var fullName: string = 'Michael Crump'; //fullName is using a Type Annotation 
 
-var something;
+//Numbers
+
+var num = 1; //Type Inference automaically knows it is a number.
+var bigNumber: number = 100; //Type Annotation
+var anotherBigNumber: number; //We don't have to set a Value
+
+//Any
+var something; //Type could be of type (any)
 something = 'Michael Crump'; //Now it is a String
 something = 100; //Now it is a Number
 
@@ -20,7 +26,10 @@ helloPerson(fullName); //OK
 //    return "Hello " fullName;
 //}
 
-//What if we left off the + in the previous function?
+//#2: What if we left off the + in the previous function?
+
+//var bigError: number = bigNumber + 'Hello World';
+//#3: This line won't work as it is expecting it to be a number.
 
 window.onload = () => {
     document.body.innerHTML = helloPerson(name);
