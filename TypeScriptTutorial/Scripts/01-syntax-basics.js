@@ -23,4 +23,4 @@ helloPerson(fullName); //OK
 window.onload = function () {
     document.body.innerHTML = helloPerson(name);
 };
-//# sourceMappingURL=01.js.map
+//# sourceMappingURL=01-syntax-basics.js.map

@@ -17,4 +17,4 @@ window.onload = function () {
 //window.onload = () => {
 //    document.body.innerHTML = addNumbers(15, something).toString();
 //}; 
-//# sourceMappingURL=02.js.map
+//# sourceMappingURL=02-syntax-digging-deeper.js.map

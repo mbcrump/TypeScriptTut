@@ -8,4 +8,4 @@ var main = function () {
 $(document).ready(function () {
     main();
 });
-//# sourceMappingURL=03.js.map
+//# sourceMappingURL=03-working-with-typings.js.map
