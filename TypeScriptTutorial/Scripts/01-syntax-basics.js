@@ -3,8 +3,15 @@ var name = 'Michael Crump'; //name is using Type Inference as a string since it 
 var fullName = 'Michael Crump'; //fullName is using a Type Annotation 
 //Numbers
 var num = 1; //Type Inference automaically knows it is a number.
+var num2 = 1.11;
 var bigNumber = 100; //Type Annotation
 var anotherBigNumber; //We don't have to set a Value
+//Booleans
+var isDataPresent = true;
+var isDataReallyPresent = true;
+//Arrays
+var myArray = ["One", "Two", "Three"];
+var firstItem = myArray[0];
 //Any
 var something; //Type could be of type (any)
 something = 'Michael Crump'; //Now it is a String

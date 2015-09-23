@@ -6,8 +6,19 @@ var fullName: string = 'Michael Crump'; //fullName is using a Type Annotation
 //Numbers
 
 var num = 1; //Type Inference automaically knows it is a number.
+var num2 = 1.11; 
 var bigNumber: number = 100; //Type Annotation
 var anotherBigNumber: number; //We don't have to set a Value
+
+//Booleans
+
+var isDataPresent = true;
+var isDataReallyPresent: boolean = true;
+
+//Arrays
+
+var myArray: string[] = ["One", "Two", "Three"];
+var firstItem: string = myArray[0];
 
 //Any
 var something; //Type could be of type (any)
