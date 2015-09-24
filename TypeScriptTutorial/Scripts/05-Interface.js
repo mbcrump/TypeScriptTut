@@ -13,4 +13,4 @@ b.title = 'Romeo and Juliet';
 b.author = 'William Shakespeare';
 var book = b.bookInfo();
 alert(book);
-//# sourceMappingURL=04-Interface.js.map
+//# sourceMappingURL=05-Interface.js.map

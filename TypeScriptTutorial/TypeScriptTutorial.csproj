@@ -25,8 +25,9 @@
     <Content Include="Demos\01-syntax-basics.html" />
     <Content Include="Demos\02-syntax-digging-deeper.html" />
     <Content Include="Demos\03-working-with-typings.html" />
-    <Content Include="Demos\04-Interfaces.html" />
-    <Content Include="Demos\05-class.html" />
+    <Content Include="Demos\04-debugging.html" />
+    <Content Include="Demos\05-Interfaces.html" />
+    <Content Include="Demos\06-class.html" />
     <Content Include="index.html" />
     <Content Include="Scripts\jquery-1.11.3.min.js" />
     <Content Include="web.config" />
@@ -35,7 +36,8 @@
     <TypeScriptCompile Include="Scripts\01-syntax-basics.ts" />
     <TypeScriptCompile Include="Scripts\02-syntax-digging-deeper.ts" />
     <TypeScriptCompile Include="Scripts\03-working-with-typings.ts" />
-    <TypeScriptCompile Include="Scripts\04-Interface.ts" />
+    <TypeScriptCompile Include="Scripts\04-debugging.ts" />
+    <TypeScriptCompile Include="Scripts\05-Interface.ts" />
     <TypeScriptCompile Include="Scripts\05-Class.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
   </ItemGroup>
