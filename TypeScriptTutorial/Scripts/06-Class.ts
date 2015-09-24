@@ -12,5 +12,5 @@ class MyBook implements Books {
     }
 }
 
-var b: Books = new MyBook();
-alert(b.bookInfo())
+var b1: Books = new MyBook();
+alert(b1.bookInfo())

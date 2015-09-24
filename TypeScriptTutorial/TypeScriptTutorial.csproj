@@ -38,7 +38,7 @@
     <TypeScriptCompile Include="Scripts\03-working-with-typings.ts" />
     <TypeScriptCompile Include="Scripts\04-debugging.ts" />
     <TypeScriptCompile Include="Scripts\05-Interface.ts" />
-    <TypeScriptCompile Include="Scripts\05-Class.ts" />
+    <TypeScriptCompile Include="Scripts\06-Class.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
   </ItemGroup>
   <ItemGroup>

@@ -8,6 +8,6 @@ var MyBook = (function () {
     };
     return MyBook;
 })();
-var b = new MyBook();
-alert(b.bookInfo());
-//# sourceMappingURL=05-Class.js.map
+var b1 = new MyBook();
+alert(b1.bookInfo());
+//# sourceMappingURL=06-Class.js.map

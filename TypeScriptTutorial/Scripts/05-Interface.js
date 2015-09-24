@@ -1,16 +1,35 @@
+//Interfaces
 var b = {
+    //ISBN : 99999999990999,
     title: 'Moby Dick',
     author: 'Herman Melville',
     bookInfo: function () {
-        return this.title + " by : " + this.author;
+        if (this.yearPublished === undefined) {
+            return this.title + " by : " + this.author;
+        }
+        ;
+        return this.title + " by : " + this.author + " published on " + this.yearPublished;
+    },
+    returnTitlebyAuthor: function (author) {
+        if (this.author === "Andy Weir") {
+            return "The Martian";
+        }
+        ;
     }
 };
+//#1: Notice we can't add ISBN b/c it wasn't defined in the Book Interface
+//#2: Notice that we did not supply a yearPublished variable. 
+//if we get rid of the ?, the var b is not valid syntax anymore. 
 //Sample 1
-//var book = b.bookInfo();
-//alert(book);
-//Sample 2
-b.title = 'Romeo and Juliet';
-b.author = 'William Shakespeare';
 var book = b.bookInfo();
 alert(book);
+//Sample 2
+b.title = 'The Martian';
+b.author = 'Andy Weir';
+b.yearPublished = 2014;
+var book = b.bookInfo();
+alert(book);
+//Sample 3
+var author = b.returnTitlebyAuthor("Andy Weir");
+alert(author);
 //# sourceMappingURL=05-Interface.js.map
