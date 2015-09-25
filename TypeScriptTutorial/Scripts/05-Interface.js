@@ -1,4 +1,5 @@
-//Interfaces
+//Interfaces describes a Type
+//Interfaces help us keep our programs error-free in the IDE or editor by providing information about the shape of the data that we are going to work with.
 var b = {
     //ISBN : 99999999990999,
     title: 'Moby Dick',

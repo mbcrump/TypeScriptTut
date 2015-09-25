@@ -1,3 +1,24 @@
+//Classes as containers for different members of your application.
+//These contain fields, constructors, properties and functions. 
+var MySampleClass = (function () {
+    function MySampleClass() {
+    }
+    return MySampleClass;
+})();
+//Take a look at one. 
+var MyReallySimpleClass = (function () {
+    function MyReallySimpleClass(name) {
+        this.name = name;
+    }
+    return MyReallySimpleClass;
+})();
+//Shorthand way of looking at a class
+var MyReallySimpleClass2 = (function () {
+    function MyReallySimpleClass2(name) {
+        this.name = name;
+    }
+    return MyReallySimpleClass2;
+})();
 var MyBook = (function () {
     function MyBook() {
         this.title = 'Moby Dick';
