@@ -1,11 +1,15 @@
 //Strings
-var name = 'Michael Crump'; //name is using Type Inference as a string since it was declared as a string
-var fullName = 'Michael Crump'; //fullName is using a Type Annotation 
+var name = 'Michael Crump';
+//name is using Type Inference and knows it is a string.
+var fullName = 'Michael Crump';
+//fullName is using a Type Annotation 
 //Numbers
-var num = 1; //Type Inference automaically knows it is a number.
+var num = 1;
+//num is using Type Inference and knows it is a number.
 var num2 = 1.11;
 var bigNumber = 100; //Type Annotation
-var anotherBigNumber; //We don't have to set a Value
+var anotherBigNumber;
+//We don't have to set a Value
 //Booleans
 var isDataPresent = true;
 var isDataReallyPresent = true;
@@ -27,10 +31,12 @@ function helloPerson(s1) {
 //#1 What if the function was described as a number?
 helloPerson(fullName); //OK
 //#2: What if we left off the + in the function below?
-//function helloAgain() {
-//    return "Hello " fullName;
+//function helloAgain(s1: string) {
+//    return "Hello " + s1;
 //}
-//#3: This line won't work as it is expecting it to be a number.
+//helloAgain(fullName);
+//#3: This line won't work as it is expecting 
+//it to be a number.
 //var bigError: number = bigNumber + 'Hello World';
 window.onload = function () { document.body.innerHTML = helloPerson(name); };
 //#4: You could also use shorthand syntax with the following code. 

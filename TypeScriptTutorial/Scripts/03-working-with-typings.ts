@@ -1,6 +1,7 @@
 ﻿//Ambient Declarations
 
-//#1. references for the DOM and JavaScript are already preloaded
+//#1. References for the DOM and JavaScript 
+//    are already preloaded
 document.title = "My New Title";
 
 //#2: You can reference external libraries as shown below. 
