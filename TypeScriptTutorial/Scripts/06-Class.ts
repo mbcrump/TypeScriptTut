@@ -1,5 +1,8 @@
-﻿//Classes as containers for different members of your application.
-//These contain fields, constructors, properties and functions. 
+﻿//Classes as containers for different members of your
+//application.
+//These contain fields, constructors, 
+//properties and functions. 
+
 class MySampleClass {
     //Fields
     //Constructors
@@ -7,7 +10,7 @@ class MySampleClass {
     //Functions
 }
 
-//Take a look at one. 
+//Take a look at a simple one. 
 class MyReallySimpleClass {
     name: string; 
     constructor(name: string) {

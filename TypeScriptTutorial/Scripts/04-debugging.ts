@@ -1,6 +1,4 @@
-﻿//IE works best for debugging
-
-var AddIt: (nums: { num1: number; num2?: number; }) => number;
+﻿var AddIt: (nums: { num1: number; num2?: number; }) => number;
 
 var setA = { num1: 10 };
 var setB = { num1: 10, num2: 5 };
@@ -12,10 +10,10 @@ AddIt = function (nums) {
     return nums.num1 + nums.num1;
 };
 
-//!== We really wanted that to be not equal to undefined
-
 var value1: number = AddIt(setA);
 console.log('setA = ' + value1);
 
 var value2: number = AddIt(setB);
 console.log('setB = ' + value2);
+
+//!== We really wanted that to be not equal to undefined

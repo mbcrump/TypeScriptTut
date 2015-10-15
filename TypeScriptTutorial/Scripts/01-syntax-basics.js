@@ -1,7 +1,7 @@
 //Strings
-var name = 'Michael Crump';
+var name = "Michael Crump";
 //name is using Type Inference and knows it is a string.
-var fullName = 'Michael Crump';
+var fullName = "Michael Crump";
 //fullName is using a Type Annotation 
 //Numbers
 var num = 1;
@@ -31,10 +31,10 @@ function helloPerson(s1) {
 //#1 What if the function was described as a number?
 helloPerson(fullName); //OK
 //#2: What if we left off the + in the function below?
-//function helloAgain(s1: string) {
-//    return "Hello " + s1;
-//}
-//helloAgain(fullName);
+function helloAgain(s1) {
+    return "Hello " + s1;
+}
+console.log(helloAgain(fullName));
 //#3: This line won't work as it is expecting 
 //it to be a number.
 //var bigError: number = bigNumber + 'Hello World';

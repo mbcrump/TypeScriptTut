@@ -1,9 +1,9 @@
 ﻿//Strings
 
-var name = 'Michael Crump'; 
+var name = "Michael Crump"; 
 //name is using Type Inference and knows it is a string.
 
-var fullName: string = 'Michael Crump'; 
+var fullName: string = "Michael Crump"; 
 //fullName is using a Type Annotation 
 
 //Numbers
@@ -45,18 +45,17 @@ function helloPerson(s1: string) {
 helloPerson(fullName); //OK
 
 //#2: What if we left off the + in the function below?
-//function helloAgain(s1: string) {
-//    return "Hello " + s1;
-//}
+function helloAgain(s1: string) {
+    return "Hello " + s1;
+}
 
-//helloAgain(fullName);
+console.log(helloAgain(fullName));
 
 //#3: This line won't work as it is expecting 
 //it to be a number.
 //var bigError: number = bigNumber + 'Hello World';
 
 window.onload = function () { document.body.innerHTML = helloPerson(name) };
-
 //#4: You could also use shorthand syntax with the following code. 
 //window.onload = () => {
 //    document.body.innerHTML = helloPerson(name);

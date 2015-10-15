@@ -1,5 +1,7 @@
 ﻿//Interfaces describes a Type
-//Interfaces help us keep our programs error-free in the IDE or editor by providing information about the shape of the data that we are going to work with.
+//Interfaces help us keep our programs error-free 
+//in the IDE or editor by providing information about
+//the shape of the data that we are going to work with.
 
 
 interface Book {
