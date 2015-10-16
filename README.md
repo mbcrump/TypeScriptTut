@@ -1,6 +1,7 @@
 ##TypeScript Code Samples
 
-[Slides](https://speakerdeck.com/mbcrump/)
+[Slides](https://speakerdeck.com/mbcrump/typescript-for-regular-folks-like-me)
+
 [Code](https://github.com/mbcrump/TypeScriptTut)
 
 ================
